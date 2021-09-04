@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.hero-container{
+    min-height: 100vh;
+    background-image: url('./Assets/Images/Banding\ -\ Copy@1-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 5%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 5rem;
+}
+.button-container{
+    padding-top: 4%;
+}

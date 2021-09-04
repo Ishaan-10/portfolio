@@ -1,0 +1,31 @@
+import React from 'react'
+import './hero.css'
+import { Container, Row, Button, Col } from 'react-bootstrap'
+
+export default function Hero() {
+    return (
+        <div className="hero-container">
+            <Container className="content">
+                <Row>
+                    <h1>Hi !</h1>
+                </Row>
+                <Row>
+                    <h2>I'm Ishaan Bhola</h2>
+                </Row>
+                <Row>
+                    <h3>Not your average computer science student</h3>
+                </Row>
+                <Row>
+                    <h4>Full Stack Developer | DSA enthusiast| Problem Solver |</h4>
+                </Row>
+            </Container>
+            <Container className="button-container">
+                
+                    <Button variant="light" className="m-2">Download Resume</Button>
+                    <Button variant="dark" className="m-2">Contact me</Button>
+                
+            </Container>
+
+        </div>
+    )
+}
