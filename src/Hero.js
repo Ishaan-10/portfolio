@@ -1,13 +1,25 @@
 import React from 'react'
 import './hero.css'
-import { Container, Row, Button, Col } from 'react-bootstrap'
+import { Container, Row, Button} from 'react-bootstrap'
 
 export default function Hero() {
+
+    // const greetings = ["Hi!","Bonjour!","Guten tag!","Namaste!","Olá!","Hola!","Hi!"];
+    // const [greeting , setGreeting]=useState("Hi!");
+    // const num = (Math.floor(Math.random()*greetings.length-1 +1));
+    
+    // useEffect(()=>{
+    //     setInterval(()=>{
+    //         setGreeting(greetings[num]);
+    //     },1000);
+    // },[])
+
+
     return (
         <div className="hero-container">
             <Container className="content">
                 <Row>
-                    <h1>Hi !</h1>
+                    <h1>Hi!</h1>
                 </Row>
                 <Row>
                     <h2>I'm Ishaan Bhola</h2>
