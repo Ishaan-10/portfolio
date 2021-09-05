@@ -1,10 +1,10 @@
 import React from 'react'
-import './skills.css'
+import './Assets/Css/skills.css'
 import { Row, Col } from 'react-bootstrap'
 
 export default function Skills() {
     return (
-        <div className="skills-container" >
+        <div id="skills-container" >
             <div className="container">
                 <h1 className="text-center pt-4">Skills</h1>
                 <div className="container-sm">

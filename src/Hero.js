@@ -1,5 +1,5 @@
 import React from 'react'
-import './hero.css'
+import './Assets/Css/hero.css'
 import { Container, Row, Button} from 'react-bootstrap'
 
 export default function Hero() {

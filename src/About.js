@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import './Assets/Css/about.css'
 import { Row, Col, Button } from 'react-bootstrap'
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
                             <img src={require('./Assets/Images/pic.jpg')} alt="" />
                         </Row>
                         <Row>
-                            <Button variant="dark" className="m-2">Education</Button>
+                            <Button  variant="dark" className="m-2">Education</Button>
                         </Row>
                         <Row>
                             <Button variant="light" className="m-2">Work Experience</Button>
@@ -24,7 +24,7 @@ export default function About() {
                             <Button variant="light" className="m-2">Achievments</Button>
                         </Row>
                         <Row>
-                            <Button variant="light" className="m-2">Skills</Button>
+                            <Button href="#skills-container" variant="light" className="m-2">Skills</Button>
                         </Row>
 
                     </Col>

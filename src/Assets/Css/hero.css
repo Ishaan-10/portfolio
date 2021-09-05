@@ -2,7 +2,7 @@
 
 .hero-container{
     min-height: 100vh;
-    background-image: url('./Assets/Images/Banding\ -\ Copy@1-1920x1080.jpg');
+    background-image: url('../Images/Banding\ -\ Copy@1-1920x1080.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,4 +22,7 @@ h2{
 }
 .button-container{
     padding-top: 4%;
+}
+.photo{
+    background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)
 }
