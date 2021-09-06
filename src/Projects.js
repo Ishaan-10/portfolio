@@ -9,8 +9,8 @@ export default function Projects() {
     return (
         <div id="projects-container">
             <div className="container">
-                <h1 className="text-white">Projects</h1>
-                <h4 className="text-white">Full Stack Projects</h4>
+                <h2 className="text-white">Projects</h2>
+                <h3 className="text-white">Full Stack Projects</h3>
                 <Row>
                     <Col md>
                         <Cardtwo {...projectData[0]} />
@@ -19,7 +19,7 @@ export default function Projects() {
                         <Cardone {...projectData[1]} />
                     </Col>
                 </Row>
-                <h4 className="text-white">Smaller Projects</h4>
+                <h3 className="text-white">Smaller Projects</h3>
                 <Row>
                     <Col md>
                         <Cardtwo {...projectData[2]} />
