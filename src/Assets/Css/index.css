@@ -14,5 +14,21 @@ code {
 html{
   scroll-behavior: smooth;
   background-color: black;
+  scrollbar-width: thin;
+  scrollbar-color:  #4c1b9f rgb(10, 17, 59);
+}
+html::-webkit-scrollbar {
+  width: 0.5vw;
 }
 
+html::-webkit-scrollbar-thumb {
+  background-color: #ffffff
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #661be7;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgb(10, 17, 59);
+}
