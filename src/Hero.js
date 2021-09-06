@@ -33,7 +33,7 @@ export default function Hero() {
             </Container>
             <Container className="button-container">
                 
-                    <Button variant="light" className="m-2">Download Resume</Button>
+                    <Button target="_blank" href="Resume.pdf" variant="light" className="m-2" download="Ishaan_Bhola_Resume">Download Resume</Button>
                     <Button variant="dark" className="m-2">Contact me</Button>
                 
             </Container>
