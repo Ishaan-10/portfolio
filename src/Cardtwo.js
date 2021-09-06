@@ -1,31 +1,52 @@
 import React from 'react'
+import { Badge } from 'react-bootstrap';
 
-export default function Cardtwo() {
+export default function Cardtwo(props) {
+    const {
+        title,
+        date,
+        description,
+        // tagline,
+        tags,
+        liveLink,
+        githubLink,
+        image
+    } = props;
+
+
     return (
-        <div class="blog-card alt">
-            <div class="meta">
-                <div class="photo"></div>
-                <ul class="details">
-                    <li class="author"><a href="#">Jane Doe</a></li>
-                    <li class="date">July. 15, 2015</li>
-                    <li class="tags">
-                        <ul>
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Code</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="description">
-                <h1>Mastering the Language</h1>
-                <h2>Java is not the same as JavaScript</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                <p class="read-more">
-                    <a href="#">View Live</a>
-                    <span> </span>
-                    <a href="#">Source Code</a>
-                </p>
+        <div>
+            <div class="blog-card alt">
+                <div class="meta">
+                <div class="photo" style={{
+                        backgroundImage:`url(${image})`
+                    }} ></div>
+                    <ul class="details">
+                        {/* <li class="author"><a href="#">John Doe</a></li> */}
+                        <li class="date">{date}</li>
+                        <li class="tags">
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h1>{title}</h1>
+                    <h2>
+                        {tags.map((tag, index) =>
+                        (
+                            <Badge bg="success m-1"> {tag} </Badge>
+                        )
+                        )}
+                    </h2>
+                    <p>
+                        {description}
+                    </p>
+                    <p class="read-more">
+                        {liveLink && <a href={liveLink}>View Live</a>}
+                        <span> </span>
+                        <a href={githubLink}>Source Code</a>
+                    </p>
+                </div>
             </div>
         </div>
     )
