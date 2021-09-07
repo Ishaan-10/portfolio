@@ -10,3 +10,15 @@
 .skill-row{
     font-size: 100px;
 }
+.colored:hover{
+    filter: brightness(200%);
+    filter: saturate(4);
+}
+.colored{
+    filter: brightness(130%);
+    filter: saturate(2);
+
+}
+.devicon-mysql-plain-wordmark{
+    filter: brightness(200%);
+}
