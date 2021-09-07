@@ -4,15 +4,17 @@ import { Container, Row } from 'react-bootstrap'
 
 export default function Contact() {
 
-    const resetForm = ()=>{
-        document.querySelectorAll("input").value="";
+    const resetForm = () => {
+        document.querySelectorAll("input").value = "";
     }
 
     return (
         <div class="contact-container">
             <Container className="pt-3">
                 <Row>
+
                     <form class="my-form" name="contact" netlify>
+                    <input type="hidden" name="form-name" value="contact" />
                         <div class="container">
                             <ul>
                                 <h2>Get in touch</h2>
