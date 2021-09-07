@@ -12,25 +12,25 @@ export default function Contact() {
         <div class="contact-container">
             <Container className="pt-3">
                 <Row>
-                    <form class="my-form" netlify>
+                    <form class="my-form" name="contact" netlify>
                         <div class="container">
                             <ul>
                                 <h2>Get in touch</h2>
                                 <h6 className="p-2">Will get back to you as soon as possible!</h6>
                                 <li>
                                     <div class="grid grid-2">
-                                        <input type="text" placeholder="Name" required />
-                                        <input type="text" placeholder="Surname" required />
+                                        <input type="text" name="firstname" placeholder="First Name" required />
+                                        <input type="text" name="lastname" placeholder="Last Name" required />
                                     </div>
                                 </li>
                                 <li>
                                     <div class="grid grid-2">
-                                        <input type="email" placeholder="Email" required />
-                                        <input type="tel" placeholder="Phone" />
+                                        <input type="email" name="email" placeholder="Email" required />
+                                        <input type="tel" name="phone" placeholder="Phone" />
                                     </div>
                                 </li>
                                 <li>
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message"></textarea>
                                 </li>
                                 <li>
                                     <div class="grid grid-3">
