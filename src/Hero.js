@@ -34,7 +34,7 @@ export default function Hero() {
             <Container className="button-container">
                 
                     <Button target="_blank" href="Resume.pdf" variant="light" className="m-2" download="Ishaan_Bhola_Resume">Download Resume</Button>
-                    <Button variant="dark" className="m-2">Contact me</Button>
+                    <Button href="#contact-container" variant="dark" className="m-2">Contact me</Button>
                 
             </Container>
 
