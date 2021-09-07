@@ -13,8 +13,8 @@ export default function Contact() {
             <Container className="pt-3">
                 <Row>
 
-                    <form class="my-form" name="contact" netlify>
-                    <input type="hidden" name="form-name" value="contact" />
+                    <form class="my-form" method="post" name="contact" netlify>
+
                         <div class="container">
                             <ul>
                                 <h2>Get in touch</h2>
@@ -27,6 +27,7 @@ export default function Contact() {
                                 </li>
                                 <li>
                                     <div class="grid grid-2">
+                                        <input type="hidden" name="form-name" value="contact" />
                                         <input type="email" name="email" placeholder="Email" required />
                                         <input type="tel" name="phone" placeholder="Phone" />
                                     </div>

@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <form name="contact" netlify hidden>
-    <input type="text" name="firstname" placeholder="First Name" required />
-    <input type="text" name="lastname" placeholder="Last Name" required />
-    <input type="email" name="email" placeholder="Email" required />
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="firstname" placeholder="First Name" />
+    <input type="text" name="lastname" placeholder="Last Name" />
+    <input type="email" name="email" placeholder="Email" />
     <input type="tel" name="phone" placeholder="Phone" />
     <textarea name="message" placeholder="Message"></textarea>
   </form>
