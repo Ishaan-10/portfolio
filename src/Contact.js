@@ -9,11 +9,11 @@ export default function Contact() {
     }
 
     return (
-        <div id="contact-">
+        <div id="contact-container">
             <Container className="pt-3">
                 <form class="my-form" method="post" name="contact" netlify>
 
-                    <div class="">container
+                    <div class="">
                         <ul className="p-0">
                             <h2>Get in touch</h2>
                             <div className="icons">
