@@ -9,6 +9,7 @@
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
     padding-bottom:3% ;
+    background-attachment: fixed;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
