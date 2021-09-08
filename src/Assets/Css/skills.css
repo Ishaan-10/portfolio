@@ -22,3 +22,8 @@
 .devicon-mysql-plain-wordmark{
     filter: brightness(200%);
 }
+fieldset{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
