@@ -19,12 +19,12 @@ export default function Contact() {
                             <div className="icons">
                                 <div class="rounded-social-buttons">
 
-                                    <a class="social-button twitter" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    {/* <a class="social-button twitter" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> */}
+                                    <a class="social-button mail" href="mailto:b.ishaan10@gmail.com"><i class="fas fa-envelope"></i></a>
+                                    <a class="social-button linkedin" href="https://www.linkedin.com/in/ishaan-bhola/"><i class="fab fa-linkedin"></i></a>
 
-                                    <a class="social-button linkedin" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                    {/* <a class="social-button instagram" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> */}
 
-                                    <a class="social-button instagram" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a class="social-button mail" href="https://www.instagram.com/"><i class="fas fa-envelope"></i></a>
                                 </div>
 
                             </div>

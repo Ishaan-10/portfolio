@@ -42,9 +42,9 @@ export default function Cardtwo(props) {
                         {description}
                     </p>
                     <p class="read-more">
-                        {liveLink && <a href={liveLink}>View Live</a>}
+                        {liveLink && <a target="_blank" href={liveLink}>View Live</a>}
                         <span> </span>
-                        <a href={githubLink}>Source Code</a>
+                        <a target="_blank" href={githubLink}>Source Code</a>
                     </p>
                 </div>
             </div>

@@ -37,7 +37,7 @@ export default function Projects() {
                     </Col>
                 </Row>
             <pre>
-            <Button href="https://github.com/Ishaan-10" variant="dark my-3 mb-5" >See more on Github <i class="fab fa-github"></i></Button>
+            <Button target="_blank" href="https://github.com/Ishaan-10" variant="dark my-3 mb-5" >See more on Github <i class="fab fa-github"></i></Button>
             </pre>
             </div>
 

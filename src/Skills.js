@@ -6,7 +6,7 @@ import Star from './Star'
 export default function Skills() {
     return (
         <div id="skills-container" >
-            <div className="container">
+            <div className="container p-5">
                 <h1 className="text-center pt-4">Skills</h1>
                 <div className="container-sm">
                     <Row className="text-center skill-row" >
@@ -56,7 +56,8 @@ export default function Skills() {
                             <Star num={3} />
                         </Col>
                         <Col>
-                            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+
                             <Star num={5} />
                         </Col>
                         <Col>

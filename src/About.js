@@ -54,6 +54,7 @@ export default function About() {
                             onClick={()=>setActiveSection("Achievments")} className="m-2">Achievments</Button>
 
                             <Button href="#skills-container" variant="light" className="m-2">Skills</Button>
+                            <Button target="_blank" href="https://github.com/Ishaan-10" variant="light" className="m-2"><i class="fab fa-github"></i></Button>
                     </Col>
                     <Col>
                         {section()}

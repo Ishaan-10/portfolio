@@ -19,7 +19,7 @@ export default function Hero() {
         <div data-aos="fade-up" className="hero-container">
             <Container className="content">
                 <Row>
-                    <h1 >Hi!</h1>
+                    <h1 >Hi !</h1>
                 </Row>
                 <Row>
                     <h2>I'm Ishaan Bhola</h2>
@@ -33,7 +33,7 @@ export default function Hero() {
             </Container>
             <Container className="button-container">
                 
-                    <Button target="_blank" href="Resume.pdf" variant="light" className="m-2" download="Ishaan_Bhola_Resume">Download Resume</Button>
+                    <Button target="_blank" href="Resume.pdf" variant="light" className="m-2" >Download Resume</Button>
                     <Button href="#contact-container" variant="dark" className="m-2">Contact me</Button>
                 
             </Container>
