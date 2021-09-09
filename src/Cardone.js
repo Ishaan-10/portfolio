@@ -45,9 +45,9 @@ export default function Cardone(props) {
                         {description}
                     </p>
                     <p class="read-more">
-                        {liveLink && <a target="_blank" href={liveLink}>View Live</a>}
+                        {liveLink && <a rel="noopener noreferrer" target="_blank" href={liveLink}>View Live</a>}
                         <span> </span>
-                        <a target="_blank" href={githubLink}>Source Code</a>
+                        <a rel="noopener noreferrer" target="_blank" href={githubLink}>Source Code</a>
                     </p>
                 </div>
             </div>
