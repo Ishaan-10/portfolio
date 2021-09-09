@@ -11,36 +11,32 @@ export default function Education() {
                     <div class="">
                         <article class="education-item">
                             <i class="education-icon fa fa-graduation-cap"></i>
-                            <h3 class="education-date">2019</h3>
+                            <h4 class="education-date">2020 - Present</h4>
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title"><p>
-                                        PhD in Computer Engineering
-                                    </p></h5>
-
-                                    <h6 class="card-subtitle"> <span>link to website</span> </h6>
-                                    <p class="card-text text-muted">2018 - 2019</p>
+                                    <h5 class="card-title">
+                                        B.E Electronics and Computer Engineering
+                                    </h5>
+                                    <h6 class="card-subtitle"><span>Thapar Institute of Engineering and Technology</span></h6>
+                                    <p class="card-text text-muted"><i class="fas fa-map-marker-alt"></i>  Patiala , Punjab , India</p>
                                     <p class="card-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis risus id nulla eleifend eleifend. In ligula eros, hendrerit eu tristique sit amet, gravida ut mi. Integer eu nisl id augue aliquet condimentum sit amet nec turpis. Sed eget hendrerit lacus.
                                         Donec erat lectus, varius sed risus id, bibendum cursus velit </p>
-                                    <p class="card-text">Links to <a href="https://github.com/eugene-robb">GitHub</a> and demo.</p>
                                 </div>
                             </div>
                         </article>
                         <article class="education-item">
                             <i class="education-icon fa fa-graduation-cap"></i>
-                            <h3 class="education-date">2018</h3>
+                            <h4 class="education-date">2018-2020</h4>
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title"> <span>
-                                        MSc in Computer Engineering</span> </h5>
-
-                                    <h6 class="card-subtitle"> <span>link to website</span> </h6>
-                                    <p class="card-text text-muted">2015 - 2018</p>
+                                        Senior Secondary School (CBSE) / High School</span> </h5>
+                                    <h6 class="card-subtitle"> <span>Tagore International School</span> </h6>
+                                    <p class="card-text text-muted"><i class="fas fa-map-marker-alt"></i>  New Delhi , Delhi , India</p>
                                     <p class="card-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis risus id nulla eleifend eleifend. In ligula eros, hendrerit eu tristique sit amet, gravida ut mi. Integer eu nisl id augue aliquet condimentum sit amet nec turpis. Sed eget hendrerit lacus.
                                         Donec erat lectus, varius sed risus id, bibendum cursus velit </p>
-                                    <p class="card-text">Link to <span href="https://github.com/eugene-robb">GitHub</span> and <span rel="noopener noreferrer">demo</span>.</p>
                                 </div>
                             </div>
                         </article>

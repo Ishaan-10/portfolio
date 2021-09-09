@@ -16,10 +16,10 @@ export default function Hero() {
 
 
     return (
-        <div className="hero-container">
+        <div data-aos="fade-up" className="hero-container">
             <Container className="content">
                 <Row>
-                    <h1>Hi!</h1>
+                    <h1 >Hi!</h1>
                 </Row>
                 <Row>
                     <h2>I'm Ishaan Bhola</h2>

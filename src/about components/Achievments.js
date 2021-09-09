@@ -4,16 +4,16 @@ export default function Achievments() {
 
     const achievments = [
         {
-            title: "Won Hackathon",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet nesciunt cumque porro rem quod rerum autem explicabo, vero atque natus eum nulla id quasi officia, quam inventore laboriosam minima."
+            title: "Finalist in Zeta Hack 3.0",
+            description: "Zeta Hacks 3.0 was a hackathon with over 6000+ participants and 4500+ teams. My team won the first round and we were among the top 50 teams to reach the finals."
         },
         {
-            title: "Won Hackathon",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet nesciunt cumque porro rem quod rerum autem explicabo, vero atque natus eum nulla id quasi officia, quam inventore laboriosam minima."
+            title: "Finalist in Hackalipse",
+            description: "Hackalipse was a hackathon organized by ACM , TIET. My team created a website to help farmers solve their day to day problems. We successfully reached the finals and were among the top10 teams."
         },
         {
-            title: "Won Hackathon",
-            description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet nesciunt cumque porro rem quod rerum autem explicabo, vero atque natus eum nulla id quasi officia, quam inventore laboriosam minima."
+            title: "4th rank in Web Set Go contest",
+            description: "Web Set Go ,a competition comprising of a set of rounds involving debugging a website and rebuilding another one from scratch. It was organized by TIET , Patiala."
         },
     ]
 
@@ -26,7 +26,7 @@ export default function Achievments() {
                     return (
                         <li class="achievment-li" style={{
                             margin:"3% 0%",
-                            padding:"1%"
+                            padding:"1.5%"
                             }}>
                             <img src="check.png" height="45px" alt="" /> <span><b>{achievment.title}</b></span>
                             <p>{achievment.description}</p>

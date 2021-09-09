@@ -10,18 +10,10 @@ export default function Work() {
 
                 <div class="timeline-block timeline-block-right">
                     <div class="marker"></div>
-                    <div class="timeline-content">
-                        <h3>Position</h3>
-                        <span>Company Name</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-block timeline-block-left">
-                    <div class="marker"></div>
-                    <div class="timeline-content">
-                        <h3>Position</h3>
-                        <span>Company Name</span>
+                    <div class="timeline-content py-2">
+                        <h3>Web Development Intern</h3>
+                        <span>CyberXplore</span><br />
+                        <span><i class="fas fa-map-marker-alt"></i> Remote</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
                     </div>
                 </div>

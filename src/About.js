@@ -39,8 +39,9 @@ export default function About() {
         <div className="about-container">
             <div className="container">
                 <h1 id="about">About me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste veniam exercitationem magni at vel, aliquam quasi non laudantium nobis rerum ipsum expedita quia quas odit consequuntur a quae quisquam similique!
-                    Vero, ullam nam consequatur quisquam rerum hic tenetur sunt cumque error quia eum quo saepe veritatis accusamus non maxime est labore iure obcaecati odio alias temporibus sed dolorem. Vitae, suscipit?</p>
+                <p>
+                I'm a technophile with a passion for learning and discovering new technologies. Currently, I am a MERN stack web developer and love to build new things for the web from scratch. I love to participate in hackathons and build projects with my friends. I aim to be a 10x developer one day and am working towards that goal.
+                </p>
                 <Row className="my-5" >
                     <Col md={3} >
                             <Button

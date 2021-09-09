@@ -1,6 +1,6 @@
 import React from 'react'
 import './Assets/Css/projects.css'
-import { Col, Row } from 'react-bootstrap'
+import { Col, Row,Button } from 'react-bootstrap'
 import Cardone from './Cardone'
 import Cardtwo from './Cardtwo'
 import projectData from './projectdata'
@@ -36,8 +36,9 @@ export default function Projects() {
                         {/* <Cardone {...projectData[4]} /> */}
                     </Col>
                 </Row>
-
-
+            <pre>
+            <Button href="https://github.com/Ishaan-10" variant="dark my-3 mb-5" >See more on Github <i class="fab fa-github"></i></Button>
+            </pre>
             </div>
 
         </div>

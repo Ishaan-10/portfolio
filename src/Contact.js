@@ -24,6 +24,7 @@ export default function Contact() {
                                     <a class="social-button linkedin" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
 
                                     <a class="social-button instagram" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a class="social-button mail" href="https://www.instagram.com/"><i class="fas fa-envelope"></i></a>
                                 </div>
 
                             </div>
