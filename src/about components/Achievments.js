@@ -18,11 +18,16 @@ export default function Achievments() {
     ]
 
     return (
-        <div>
-            <ul>
+        <div >
+            <h3><i class="fas fa-trophy"></i>  Achievments</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, voluptatibus voluptates dolorum numquam perferendis voluptatum, et veritatis praesentium fuga odit necessitatibus recusandae inventore ratione rem ut minus non odio quod?</p>
+            <ul className="p-0">
                 {achievments.map(achievment => {
                     return (
-                        <li>
+                        <li class="achievment-li" style={{
+                            margin:"3% 0%",
+                            padding:"1%"
+                            }}>
                             <img src="check.png" height="45px" alt="" /> <span><b>{achievment.title}</b></span>
                             <p>{achievment.description}</p>
                         </li>

@@ -43,8 +43,8 @@ export default function About() {
                     Vero, ullam nam consequatur quisquam rerum hic tenetur sunt cumque error quia eum quo saepe veritatis accusamus non maxime est labore iure obcaecati odio alias temporibus sed dolorem. Vitae, suscipit?</p>
                 <Row className="my-5" >
                     <Col md={3} >
-                            <Button  variant={eduButton} 
-                            onClick={()=>setActiveSection("Education")} className="m-2">Education</Button>
+                            <Button
+                            onClick={()=>setActiveSection("Education")} className="m-2 active-button">Education</Button>
                             <Button variant={workB}
                             onClick={()=>setActiveSection("Work")} className="m-2">Work Experience</Button>
                             <Button variant={achievButton}

@@ -47,7 +47,7 @@
     height: 16px;
     border-radius: 50%;
     border: 2px solid #F5F7FA;
-    background: #4FC1E9;
+    background: rgb(255, 255, 255);
     margin-top: 10px;
     z-index: 9999
  }
@@ -55,7 +55,8 @@
  .timeline-content {
     width: 95%;
     padding: 0 15px;
-    color: #666
+    color: rgb(255, 255, 255);
+    background-color: rgba(182, 173, 173, 0.295);
  }
  
  .timeline-content h3 {
@@ -78,7 +79,7 @@
  }
  
  
- @media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) { */
     .containerz:before {
        left: 8px;
        width: 2px;
@@ -95,5 +96,4 @@
        float: none;
        direction: ltr;
     }
- }
- 
+ /* } */
