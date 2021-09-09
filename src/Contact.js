@@ -15,7 +15,7 @@ export default function Contact() {
 
                     <div class="">
                         <ul className="p-0">
-                            <h2>Get in touch</h2>
+                            <h2>Get in touch.</h2>
                             <div className="icons">
                                 <div class="rounded-social-buttons">
 

@@ -4,6 +4,7 @@
     margin: 50px auto;
     position: relative;
     overflow: hidden;
+    
  }
  
  .containerz:before {
@@ -24,6 +25,7 @@
     width: calc(50% + 8px);
     display: -webkit-box;
     display: -webkit-flex;
+    
     display: -moz-box;
     display: flex;
     -webkit-box-pack: justify;
@@ -31,6 +33,7 @@
     -moz-box-pack: justify;
     justify-content: space-between;
     clear: both;
+    
  }
  
  .timeline-block-right {
@@ -55,8 +58,10 @@
  .timeline-content {
     width: 95%;
     padding: 0 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(182, 173, 173, 0.295);
+    background: rgba(236, 213, 235, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
  }
  
  .timeline-content h3 {
@@ -68,14 +73,14 @@
  
  .timeline-content span {
     font-size: 15px;
-    color: #a4a4a4;
+    color: #ffffff;
  }
  
  .timeline-content p {
     font-size: 14px;
     line-height: 1.5em;
     word-spacing: 1px;
-    color: #888;
+    color: rgb(255, 255, 255);
  }
  
  

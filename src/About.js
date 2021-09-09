@@ -7,9 +7,9 @@ import Work from './about components/Work';
 
 export default function About() {
 
-    const [eduButton]=useState("dark");
-    const [workB]=useState("light");
-    const [achievButton]=useState("light");
+    // // const [eduButton]=useState("dark");
+    // const [workB]=useState("light");
+    // const [achievButton]=useState("light");
     const [activeSection,setActiveSection]=useState("Education")
 
     const section = ()=>{
@@ -44,11 +44,14 @@ export default function About() {
                 <Row className="my-5" >
                     <Col md={3} >
                             <Button
-                            onClick={()=>setActiveSection("Education")} className="m-2 active-button">Education</Button>
-                            <Button variant={workB}
+                            onClick={()=>setActiveSection("Education")} variant={activeSection==="Education"?"dark":"light"} className="m-2">Education</Button>
+
+                            <Button variant={activeSection==="Work"?"dark":"light"}
                             onClick={()=>setActiveSection("Work")} className="m-2">Work Experience</Button>
-                            <Button variant={achievButton}
+
+                            <Button variant={activeSection==="Achievments"?"dark":"light"}
                             onClick={()=>setActiveSection("Achievments")} className="m-2">Achievments</Button>
+
                             <Button href="#skills-container" variant="light" className="m-2">Skills</Button>
                     </Col>
                     <Col>

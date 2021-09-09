@@ -1,7 +1,7 @@
 #contact-container{
     min-height: 50vh;
     max-width: 100wh;
-    background-image: url('../Images/Banding - Copy@1-1920x1080 - Copy.jpg');
+    /* background-image: url('../Images/Banding - Copy@1-1920x1080 - Copy.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

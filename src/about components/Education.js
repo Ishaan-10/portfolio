@@ -14,16 +14,16 @@ export default function Education() {
                             <h3 class="education-date">2019</h3>
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title"> <a href="">
+                                    <h5 class="card-title"><p>
                                         PhD in Computer Engineering
-                                    </a> </h5>
+                                    </p></h5>
 
-                                    <h6 class="card-subtitle"> <a href="">link to website</a> </h6>
+                                    <h6 class="card-subtitle"> <span>link to website</span> </h6>
                                     <p class="card-text text-muted">2018 - 2019</p>
                                     <p class="card-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis risus id nulla eleifend eleifend. In ligula eros, hendrerit eu tristique sit amet, gravida ut mi. Integer eu nisl id augue aliquet condimentum sit amet nec turpis. Sed eget hendrerit lacus.
                                         Donec erat lectus, varius sed risus id, bibendum cursus velit </p>
-                                    <p class="card-text">Links to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and demo.</p>
+                                    <p class="card-text">Links to <a href="https://github.com/eugene-robb">GitHub</a> and demo.</p>
                                 </div>
                             </div>
                         </article>
@@ -32,15 +32,15 @@ export default function Education() {
                             <h3 class="education-date">2018</h3>
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title"> <a href="">
-                                        MSc in Computer Engineering</a> </h5>
+                                    <h5 class="card-title"> <span>
+                                        MSc in Computer Engineering</span> </h5>
 
-                                    <h6 class="card-subtitle"> <a href="">link to website</a> </h6>
+                                    <h6 class="card-subtitle"> <span>link to website</span> </h6>
                                     <p class="card-text text-muted">2015 - 2018</p>
                                     <p class="card-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis risus id nulla eleifend eleifend. In ligula eros, hendrerit eu tristique sit amet, gravida ut mi. Integer eu nisl id augue aliquet condimentum sit amet nec turpis. Sed eget hendrerit lacus.
                                         Donec erat lectus, varius sed risus id, bibendum cursus velit </p>
-                                    <p class="card-text">Link to <a href="https://github.com/eugene-robb" target="_blank">GitHub</a> and <a target="_blank" rel="noopener noreferrer">demo</a>.</p>
+                                    <p class="card-text">Link to <span href="https://github.com/eugene-robb">GitHub</span> and <span rel="noopener noreferrer">demo</span>.</p>
                                 </div>
                             </div>
                         </article>

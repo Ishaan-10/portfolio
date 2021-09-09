@@ -2,7 +2,7 @@
 
 .hero-container{
     min-height: 100vh;
-    background-image: url('../Images/Banding\ -\ Copy@1-1920x1080.jpg');
+    /* background-image: url('../Images/Banding\ -\ Copy@1-1920x1080.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
