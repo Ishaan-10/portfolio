@@ -38,7 +38,7 @@ export default function About() {
     return (
         <div className="about-container">
             <div className="container">
-                <h1 id="about">About me</h1>
+                <h2 id="about">About Me</h2>
                 <p className="fs-5">
                 I'm a technophile with a passion for learning and discovering new technologies. Currently, I am a MERN stack web developer and love to build new things for the web from scratch. I love to participate in hackathons and build projects with my friends. I aim to be a 10x developer one day and am working towards that goal.
                 </p>
