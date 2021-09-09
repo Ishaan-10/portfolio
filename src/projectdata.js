@@ -17,7 +17,7 @@ const projectData = [
         tags: ["MongoDB", "Express", "EJS", "Node.js"],
         liveLink: "",
         githubLink: "https://github.com/Ishaan-10/Yelp-Camp",
-        image: "https://raw.githubusercontent.com/Ishaan-10/FINANCIFY/main/client/src/images/landing.png",
+        image: "https://gcdn.pbrd.co/images/7DJD3J5eKZBb.png?o=1",
     },
     {
         title: "Github User Finder",
@@ -27,7 +27,7 @@ const projectData = [
         tags: ["React","Github API"],
         liveLink: "https://findingithubusers.netlify.app/",
         githubLink: "https://github.com/Ishaan-10/github-finder",
-        image: "https://raw.githubusercontent.com/Ishaan-10/FINANCIFY/main/client/src/images/landing.png",
+        image: "https://raw.githubusercontent.com/Ishaan-10/github-finder/main/public/githubfinder.jpg",
     },
     {
         title: "Amazon Web Scraper",
@@ -37,7 +37,7 @@ const projectData = [
         tags: ["Node.js"],
         liveLink: "",
         githubLink: "https://github.com/Ishaan-10/Web-Scraping",
-        image: "https://raw.githubusercontent.com/Ishaan-10/FINANCIFY/main/client/src/images/landing.png",
+        image: "https://gcdn.pbrd.co/images/sTzokthCQOzK.png?o=1",
     },
     {
         title: "Cook Book",
@@ -47,7 +47,7 @@ const projectData = [
         tags: ["React"],
         liveLink: "https://reciepeswithreact.netlify.app/",
         githubLink: "https://github.com/Ishaan-10/CookingWithReact",
-        image: "https://raw.githubusercontent.com/Ishaan-10/FINANCIFY/main/client/src/images/landing.png",
+        image: "https://gcdn.pbrd.co/images/hGA8G4OCgQxQ.png?o=1",
     },
 
 ]

@@ -20,7 +20,8 @@ export default function Achievments() {
     return (
         <div >
             <h3><i class="fas fa-trophy"></i>  Achievments</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, voluptatibus voluptates dolorum numquam perferendis voluptatum, et veritatis praesentium fuga odit necessitatibus recusandae inventore ratione rem ut minus non odio quod?</p>
+            
+            <p><span className="text-black fw-bolder">"Great achievement is usually born of great sacrifice, and is never the result of selfishness." - Napoleon Hill</span></p>
             <ul className="p-0">
                 {achievments.map(achievment => {
                     return (

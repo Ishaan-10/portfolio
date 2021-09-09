@@ -39,7 +39,7 @@ export default function About() {
         <div className="about-container">
             <div className="container">
                 <h1 id="about">About me</h1>
-                <p>
+                <p className="fs-5">
                 I'm a technophile with a passion for learning and discovering new technologies. Currently, I am a MERN stack web developer and love to build new things for the web from scratch. I love to participate in hackathons and build projects with my friends. I aim to be a 10x developer one day and am working towards that goal.
                 </p>
                 <Row className="my-5" >
