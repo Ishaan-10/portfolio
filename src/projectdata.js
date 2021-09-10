@@ -12,7 +12,7 @@ const projectData = [
     {
         title: "Yelp Camp",
         date: "04/21",
-        description: "A Yelp like web app for campgrounds. View , create , review information on various campgrounds from around the world.",
+        description: "A Yelp like web app for campgrounds. View , create , review information on various campgrounds from around the world. Added Maps , Authorization , Image upload and many more features.",
         tagline: "A full stack web app",
         tags: ["MongoDB", "Express", "EJS", "Node.js"],
         liveLink: "",
@@ -22,7 +22,7 @@ const projectData = [
     {
         title: "Github User Finder",
         date: "05/21",
-        description: "A Web App to help you quickly search for GitHub users and view their stats and top repositories.",
+        description: "A Web App to help you quickly search for GitHub users and view their stats and top repositories. Stats include top repos , followers , following , bio , image , etc",
         tagline: "Web App using React and GitHub API",
         tags: ["React","Github API"],
         liveLink: "https://findingithubusers.netlify.app/",
@@ -32,7 +32,7 @@ const projectData = [
     {
         title: "Amazon Web Scraper",
         date: "07/21",
-        description: "A command line tool to scrape for prices on amazon and mail the user when the price falls below a certain amount.",
+        description: "A command line tool to scrape for prices on amazon and mail the user when the price falls below a certain amount. Used Nightmare and Nodemailer npm packages.",
         tagline: "Web App using React and GitHub API",
         tags: ["Node.js"],
         liveLink: "",
@@ -42,7 +42,7 @@ const projectData = [
     {
         title: "Cook Book",
         date: "07/21",
-        description: "A small project to store recipes of various food items",
+        description: "A small project to store recipes of various food items. Used browser storage to save necessary data.",
         tagline: "Web App using React and browser storage to store recipes",
         tags: ["React"],
         liveLink: "https://reciepeswithreact.netlify.app/",
