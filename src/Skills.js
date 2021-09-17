@@ -55,19 +55,21 @@ export default function Skills() {
                             <i class="devicon-mysql-plain-wordmark colored"></i>
                             <Star num={3} />
                         </Col>
-                        <Col>
-                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
 
-                            <Star num={5} />
+
+                        <Col>
+                            <i class="devicon-github-original-wordmark"></i>
+                            <Star num={4} />
+
                         </Col>
                         <Col>
                             <i class="devicon-git-plain-wordmark colored"></i>
                             <Star num={4} />
                         </Col>
                         <Col>
-                            <i class="devicon-github-original-wordmark"></i>
-                            <Star num={4} />
+                            <i class="devicon-bootstrap-plain-wordmark colored"></i>
 
+                            <Star num={5} />
                         </Col>
                     </Row>
                 </div>

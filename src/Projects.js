@@ -19,7 +19,7 @@ export default function Projects() {
                         <Cardone {...projectData[1]} />
                     </Col>
                 </Row>
-                <h3 className="text-white">Smaller Projects</h3>
+                <h3 className="text-white mt-3">Smaller Projects</h3>
                 <Row>
                     <Col md>
                         <Cardtwo {...projectData[2]} />

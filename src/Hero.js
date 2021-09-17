@@ -28,7 +28,7 @@ export default function Hero() {
                     <h3>Not your average computer science student</h3>
                 </Row>
                 <Row>
-                    <h4>Full Stack Developer | DSA enthusiast| Problem Solver |</h4>
+                    <h4>Full Stack Developer | DSA enthusiast | Problem Solver </h4>
                 </Row>
             </Container>
             <Container className="button-container">
