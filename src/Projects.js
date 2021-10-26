@@ -12,27 +12,27 @@ export default function Projects() {
                 <h2 className="text-white">Projects</h2>
                 <h3 className="text-white">Full Stack Projects</h3>
                 <Row>
-                    <Col md>
+                    <Col lg>
                         <Cardtwo {...projectData[0]} />
                     </Col>
-                    <Col md>
+                    <Col lg>
                         <Cardone {...projectData[1]} />
                     </Col>
                 </Row>
                 <h3 className="text-white mt-3">Smaller Projects</h3>
                 <Row>
-                    <Col md>
+                    <Col lg>
                         <Cardtwo {...projectData[2]} />
                     </Col>
-                    <Col md>
+                    <Col lg>
                         <Cardone {...projectData[3]} />
                     </Col>
                 </Row>
                 <Row>
-                    <Col md>
+                    <Col lg>
                         <Cardtwo {...projectData[4]} />
                     </Col>
-                    <Col md>
+                    <Col lg>
                         {/* <Cardone {...projectData[4]} /> */}
                     </Col>
                 </Row>

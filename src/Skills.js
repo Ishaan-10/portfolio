@@ -10,7 +10,7 @@ export default function Skills() {
                 <h1 className="text-center pt-4">Skills</h1>
                 <div className="container-sm">
                     <Row className="text-center skill-row" >
-                        <Col>
+                        <Col >
                             <i className="devicon-html5-plain-wordmark colored"></i>
                             <Star num={4} />
                         </Col>

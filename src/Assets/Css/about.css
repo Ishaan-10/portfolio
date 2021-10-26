@@ -32,3 +32,10 @@
   margin: 0;
   /* background-color: #001031; */
 }
+
+@media screen and (max-width: 600px) {
+  .individual-component{
+  margin-top: 10%;
+  }
+
+}

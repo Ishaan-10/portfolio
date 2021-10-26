@@ -40,7 +40,7 @@ export default function About() {
             <div className="container">
                 <h2 id="about">About Me</h2>
                 <p className="fs-5">
-                I'm a technophile with a passion for learning and discovering new technologies. Currently, I am a MERN stack web developer and love to build new things for the web from scratch. I love to participate in hackathons and build projects with my friends. I aim to be a 10x developer one day and am working towards that goal.
+                I'm a technophile with a passion for learning and discovering new technologies. Currently, I am a MERN stack web developer and love to build new things for the web from scratch. I love to participate in hackathons and build projects. I aim to be a 10x developer one day and am working towards that goal.
                 </p>
                 <Row className="my-5" >
                     <Col md={3} >
@@ -48,7 +48,7 @@ export default function About() {
                             onClick={()=>setActiveSection("Education")} variant={activeSection==="Education"?"dark":"light"} className="m-2">Education</Button>
 
                             <Button variant={activeSection==="Work"?"dark":"light"}
-                            onClick={()=>setActiveSection("Work")} className="m-2">Work Experience</Button>
+                            onClick={()=>setActiveSection("Work")} className="m-2">Experience</Button>
 
                             <Button variant={activeSection==="Achievments"?"dark":"light"}
                             onClick={()=>setActiveSection("Achievments")} className="m-2">Achievments</Button>
@@ -56,7 +56,7 @@ export default function About() {
                             <Button href="#skills-container" variant="light" className="m-2">Skills</Button>
                             <Button target="_blank" href="https://github.com/Ishaan-10" variant="light" className="m-2"><i class="fab fa-github"></i></Button>
                     </Col>
-                    <Col>
+                    <Col className="individual-component">
                         {section()}
                     </Col>
                 </Row>
