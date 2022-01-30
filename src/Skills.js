@@ -12,7 +12,7 @@ export default function Skills() {
                     <Row className="text-center skill-row" >
                         <Col >
                             <i className="devicon-html5-plain-wordmark colored"></i>
-                            <Star num={4} />
+                            <Star num={5} />
                         </Col>
                         <Col>
                             <i class="devicon-css3-plain-wordmark colored"></i>
@@ -20,7 +20,7 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <i class="devicon-javascript-plain colored"></i>
-                            <Star num={3} />
+                            <Star num={4} />
                         </Col>
                         <Col>
                             <i class="devicon-java-plain-wordmark colored"></i>
@@ -31,7 +31,7 @@ export default function Skills() {
                     <Row className="text-center skill-row" >
                         <Col>
                             <i class="devicon-nodejs-plain-wordmark colored"></i>
-                            <Star num={3} />
+                            <Star num={4} />
                         </Col>
                         <Col>
                             <i class="devicon-mongodb-plain-wordmark colored"></i>
@@ -40,7 +40,7 @@ export default function Skills() {
                         </Col>
                         <Col>
                             <i class="devicon-express-original-wordmark"></i>
-                            <Star num={4} />
+                            <Star num={5} />
 
                         </Col>
                         <Col>
@@ -53,7 +53,7 @@ export default function Skills() {
                     <Row className="text-center skill-row" >
                         <Col>
                             <i class="devicon-mysql-plain-wordmark colored"></i>
-                            <Star num={3} />
+                            <Star num={4} />
                         </Col>
 
 
