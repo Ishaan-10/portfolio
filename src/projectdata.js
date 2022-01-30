@@ -37,7 +37,7 @@ const projectData = [
         tags: ["Node.js"],
         liveLink: "",
         githubLink: "https://github.com/Ishaan-10/Web-Scraping",
-        image: "https://gcdn.pbrd.co/images/sTzokthCQOzK.png?o=1",
+        image: "./scraper.jpg",
     },
     {
         title: "Cook Book",
@@ -47,7 +47,7 @@ const projectData = [
         tags: ["React"],
         liveLink: "https://reciepeswithreact.netlify.app/",
         githubLink: "https://github.com/Ishaan-10/CookingWithReact",
-        image: "https://gcdn.pbrd.co/images/hGA8G4OCgQxQ.png?o=1",
+        image: "./cookbook.jpg",
     },
 
 ]

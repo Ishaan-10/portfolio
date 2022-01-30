@@ -4,7 +4,7 @@ import { Badge } from 'react-bootstrap';
 export default function Cardtwo(props) {
     const {
         title,
-        date,
+        // date,
         description,
         // tagline,
         tags,
@@ -23,7 +23,7 @@ export default function Cardtwo(props) {
                     }} ></div>
                     <ul class="details">
                         {/* <li class="author"><a href="#">John Doe</a></li> */}
-                        <li class="date">{date}</li>
+                        {/* <li class="date">{date}</li> */}
                         <li class="tags">
 
                         </li>
