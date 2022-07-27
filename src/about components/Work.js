@@ -14,6 +14,18 @@ export default function Work() {
                     <div class="marker"></div>
                     <div class="timeline-content py-2">
                         <h3>Web Development Intern</h3>
+                        <h5 className="mb-0 text-primary">Rariko <span className="float-end"><i style={{color:"green"}} class="fas fa-map-marker-alt"></i> Remote</span></h5><br />
+                        
+                        <p>
+                            - Remodeled and developed several responsive React.js components using modern practices and followed the Agile methodology.<br />
+                            - Debugged and resolved several issues in the Node.js backend particularly involving Web Sockets in the chat platform. Created several more chat features like read receipts, typing status and enhanced existing ones. <br />
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-right">
+                    <div class="marker"></div>
+                    <div class="timeline-content py-2">
+                        <h3>Web Development Intern</h3>
                         <h5 className="mb-0 text-primary">CyberXplore <span className="float-end"><i style={{color:"green"}} class="fas fa-map-marker-alt"></i> Remote</span></h5><br />
                         
                         <p>
